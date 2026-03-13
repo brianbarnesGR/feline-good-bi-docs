@@ -6,3 +6,6 @@ title = "Feline Good BI Docs"
 
     [[module.imports]]
     path = "github.com/colinwilson/lotusdocs"
+
+    [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
