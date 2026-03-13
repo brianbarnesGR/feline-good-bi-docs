@@ -1,8 +1,15 @@
-baseURL = "https://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Feline Good BI Docs"
+
+uglyURLs = true
+canonifyURLs = false
+relativeURLs = true
 
 [module]
 
     [[module.imports]]
     path = "github.com/colinwilson/lotusdocs"
+
+    [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
