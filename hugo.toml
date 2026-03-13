@@ -2,6 +2,7 @@ baseURL = "https://azurestaticapps.net"
 languageCode = "en-us"
 title = "Feline Good BI Docs"
 
+uglyURLs = true
 canonifyURLs = false
 relativeURLs = true
 
