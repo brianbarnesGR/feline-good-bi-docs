@@ -48,7 +48,7 @@ jobs:
         run: npm install -g @azure/static-web-apps-cli
 
       - name: Install Hugo
-        run: sudo apt install hugo
+        run: sudo snap install hugo --extended
 
       - name: Build Hugo site
         run: |
