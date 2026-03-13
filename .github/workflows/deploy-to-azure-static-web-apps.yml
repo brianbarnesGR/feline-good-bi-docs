@@ -46,10 +46,8 @@ jobs:
           go-version: "1.19"
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "0.157.0"
-          extended: true
+        run: |
+          sudo snap install hugo --channel=extended
 
       - name: Install Hugo modules
         run: |
