@@ -1,0 +1,45 @@
+# Hugo output
+/public/
+resources/_gen/
+.hugo_build.lock
+
+# Hugo Module cache
+hugo_mod_cache/
+
+# Go modules
+go.sum
+
+# OS files (Windows & macOS)
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Vim swap files
+*.swp
+*.swo
+*.swn
+
+# Node/NPM (if using JS tooling)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+
+# Optional: ignore generated CSS/JS/HTML from Hugo (for CI builds)
+*.css
+*.js
+*.html
