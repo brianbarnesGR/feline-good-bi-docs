@@ -1,6 +1,9 @@
-baseURL = "https://nice-field-0e3c5fd0f-2.eastus2.1.azurestaticapps.net/"
+baseURL = "https://azurestaticapps.net"
 languageCode = "en-us"
 title = "Feline Good BI Docs"
+
+canonifyURLs = false
+relativeURLs = true
 
 [module]
 
