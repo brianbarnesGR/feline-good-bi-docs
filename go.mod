@@ -1,6 +1,6 @@
 module feline-good-bi-docs
 
-go 1.20
+go 1.21
 
 require (
 	github.com/colinwilson/lotusdocs v0.2.0 // indirect
