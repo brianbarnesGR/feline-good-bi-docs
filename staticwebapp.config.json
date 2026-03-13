@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "redirect": "/docs/",
+      "statusCode": 301
+    }
+  ]
+}
