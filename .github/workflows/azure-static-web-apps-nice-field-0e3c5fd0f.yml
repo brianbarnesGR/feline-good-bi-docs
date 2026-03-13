@@ -11,6 +11,16 @@ on:
       - "assets/**"
       - "config.toml"
       - "hugo.toml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "content/**"
+      - "layouts/**"
+      - "static/**"
+      - "assets/**"
+      - "config.toml"
+      - "hugo.toml"
 
   workflow_dispatch:
 
